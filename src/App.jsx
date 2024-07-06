@@ -5,10 +5,11 @@ function App() {
   return (
     <main>
       <section>
-        <h>Why work with us?</h>
+        <h1>Why work with us?</h1>
 
         <Accordion className="accordion">
           <AccordionItem
+            id="experience"
             className="accordion-item"
             title="We get years of experience"
           >
@@ -21,6 +22,7 @@ function App() {
             </article>
           </AccordionItem>
           <AccordionItem
+            id="local-guides"
             className="accordion-item"
             title="We're working with local guides"
           >
